@@ -392,7 +392,7 @@ Cells(last_row + 5, 1) = "Macaulay duration"
 
 Cells(last_row + 5, 2) = (Application.WorksheetFunction.SumProduct(Range(Cells(2, 3), Cells(last_row, 3)), Range(Cells(2, 11), Cells(last_row, 11)))) / bond_brice_at_issuing_date
 
-Cells(last_row + 6, 1) = "Sensibility"
+Cells(last_row + 6, 1) = "Sensitivity"
 
 Cells(last_row + 6, 2) = Cells(last_row + 5, 2) / (1 + yield_to_maturity)
 
