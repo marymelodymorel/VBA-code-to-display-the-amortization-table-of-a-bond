@@ -1,4 +1,5 @@
 # VBA-code-to-display-the-amortization-table-of-a-bond
+You can calculate clean price at all dates, sensitivity, convexity and duration
 
 Option Explicit
 
